@@ -16,7 +16,7 @@ function App() {
   const handleSubmit = async (event: any) => {
     event.preventDefault();
     try {
-      let res = await fetch("http://localhost:3333/feedback", {
+      let res = await fetch("http://13.232.169.7:3333/feedback", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
